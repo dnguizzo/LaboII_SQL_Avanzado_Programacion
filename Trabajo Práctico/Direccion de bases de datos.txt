@@ -1,0 +1,23 @@
+LAPTOP-IUOA091V\SQLEXPRESS
+
+Data Source=LAPTOP-IUOA091V\SQLEXPRESS;Initial Catalog=CarrerasBD_Local;Integrated Security=True
+
+Data Source=LAPTOP-IUOA091V\SQLEXPRESS;Initial Catalog=Facturacion;Integrated Security=True
+
+Data Source=LAPTOP-IUOA091V\SQLEXPRESS;Initial Catalog=CARPINTERIA;Integrated Security=True
+
+Data Source=LAPTOP-IUOA091V\SQLEXPRESS;Initial Catalog=recetas_db;Integrated Security=True
+
+
+Data Source=sqlgabineteinformatico.frc.utn.edu.ar;InitialCatalog=Qatar2022;UserID=alumnoprog22;Password=SQL+Alu22
+
+
+Data Source=LAPTOP-IUOA091V\SQLEXPRESS;Initial Catalog=Qatar2022;Integrated Security=True
+
+
+Data Source=LAPTOP-IUOA091V\SQLEXPRESS;Initial Catalog=AUTOMOTRIZ2;Integrated Security=True
+
+
+
+
+

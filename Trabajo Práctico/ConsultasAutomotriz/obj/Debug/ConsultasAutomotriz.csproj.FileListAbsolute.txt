@@ -1,0 +1,32 @@
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\bin\Debug\ConsultasAutomotriz.exe.config
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\bin\Debug\ConsultasAutomotriz.exe
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\bin\Debug\ConsultasAutomotriz.pdb
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\obj\Debug\ConsultasAutomotriz.csproj.AssemblyReference.cache
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\obj\Debug\ConsultasAutomotriz.csproj.SuggestedBindingRedirects.cache
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\obj\Debug\ConsultasAutomotriz.Properties.Resources.resources
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\obj\Debug\ConsultasAutomotriz.csproj.GenerateResource.cache
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\obj\Debug\ConsultasAutomotriz.csproj.CoreCompileInputs.cache
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\obj\Debug\ConsultasAutomotriz.exe
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\obj\Debug\ConsultasAutomotriz.pdb
+C:\AHUFEDE\COPIAS\ConsultasAutomotriz-20-10-2022\obj\Debug\ConsultasAutomotriz.frmConsultas.resources
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\bin\Debug\ConsultasAutomotriz.exe.config
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\bin\Debug\ConsultasAutomotriz.exe
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\bin\Debug\ConsultasAutomotriz.pdb
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.csproj.AssemblyReference.cache
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.csproj.SuggestedBindingRedirects.cache
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.frmConsultas.resources
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.Properties.Resources.resources
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.csproj.GenerateResource.cache
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.csproj.CoreCompileInputs.cache
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.exe
+C:\AHUFEDE\REPOSITORIOS GITHUB\entregas-LCII\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.pdb
+C:\Diego\Tecnicatura en Programacion\PROGRAMACION\2 Cuatrimestre\Laboratorio II\2022\TP\REPO_TP\entregas-tup\TPI LCII PARTE 3\ConsultasAutomotriz\bin\Debug\ConsultasAutomotriz.exe.config
+C:\Diego\Tecnicatura en Programacion\PROGRAMACION\2 Cuatrimestre\Laboratorio II\2022\TP\REPO_TP\entregas-tup\TPI LCII PARTE 3\ConsultasAutomotriz\bin\Debug\ConsultasAutomotriz.exe
+C:\Diego\Tecnicatura en Programacion\PROGRAMACION\2 Cuatrimestre\Laboratorio II\2022\TP\REPO_TP\entregas-tup\TPI LCII PARTE 3\ConsultasAutomotriz\bin\Debug\ConsultasAutomotriz.pdb
+C:\Diego\Tecnicatura en Programacion\PROGRAMACION\2 Cuatrimestre\Laboratorio II\2022\TP\REPO_TP\entregas-tup\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.csproj.AssemblyReference.cache
+C:\Diego\Tecnicatura en Programacion\PROGRAMACION\2 Cuatrimestre\Laboratorio II\2022\TP\REPO_TP\entregas-tup\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.frmConsultas.resources
+C:\Diego\Tecnicatura en Programacion\PROGRAMACION\2 Cuatrimestre\Laboratorio II\2022\TP\REPO_TP\entregas-tup\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.Properties.Resources.resources
+C:\Diego\Tecnicatura en Programacion\PROGRAMACION\2 Cuatrimestre\Laboratorio II\2022\TP\REPO_TP\entregas-tup\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.csproj.GenerateResource.cache
+C:\Diego\Tecnicatura en Programacion\PROGRAMACION\2 Cuatrimestre\Laboratorio II\2022\TP\REPO_TP\entregas-tup\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.csproj.CoreCompileInputs.cache
+C:\Diego\Tecnicatura en Programacion\PROGRAMACION\2 Cuatrimestre\Laboratorio II\2022\TP\REPO_TP\entregas-tup\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.exe
+C:\Diego\Tecnicatura en Programacion\PROGRAMACION\2 Cuatrimestre\Laboratorio II\2022\TP\REPO_TP\entregas-tup\TPI LCII PARTE 3\ConsultasAutomotriz\obj\Debug\ConsultasAutomotriz.pdb
