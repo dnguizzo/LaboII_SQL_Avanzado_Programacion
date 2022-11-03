@@ -621,7 +621,81 @@ CREATE function fn_conversion1
 
 select dbo.fn_conversion1 (50000,280,'pesos');
 
+/**************************************************************************************
 
+TRIGGERS 
+
+Ejercicio 1.a 1. Crear un desencadenador para las siguientes acciones:
+a. Restar stock DESPUES de INSERTAR una VENTA*/
+
+Create trigger dis_ventas_act_stock
+on detalle_facturas
+for insert
+as
+declare @stock int
+select @stock = a.stock from articulos a
+inner join inserted i on i.cod_articulo = a.cod_articulo
+if ( @stock >= (select cantidad from inserted))
+update articulos set stock = stock - i.cantidad
+from articulos a
+inner join inserted i on a.cod_articulo=i.cod_articulo
+else
+begin
+raiserror('stock menor a la cantidad vendida',10,1)
+rollback transaction
+end
+
+
+/* b. Para no poder modificar el nombre de algún artículo*/
+
+create trigger dis_mod_nombre_articulo
+on articulos
+for update
+as
+if update (descripcion) -- funcion que verifica el campo a actualizar.
+begin
+raiserror ('no se puede modifcar el nombre',10,1)
+rollback transaction
+end
+else
+begin
+update articulos  set stock_minimo = i.stock_minimo,
+                      stock = i.stock,
+					  pre_unitario=i.pre_unitario,
+					  observaciones=i.observaciones
+					  from articulos a
+					  inner join inserted i on a.cod_articulo=i.cod_articulo
+end
+
+/* c. Insertar en la tabla HistorialPrecio el precio anterior de un artículo si el mismo ha cambiado*/
+
+alter trigger dis_mod_precio_articulo
+on articulos
+after update
+as
+if update (pre_unitario) -- funcion que verifica el campo a actualizar.
+begin
+insert into historial_precios 
+select deleted.cod_articulo,deleted.pre_unitario,h1.fecha_hasta,getdate()
+from deleted
+inner join articulos a on a.cod_articulo=deleted.cod_articulo
+inner join historial_precios h1 on h1.cod_articulo = deleted.cod_articulo
+end
+
+update articulos set pre_unitario = 280 where cod_articulo = 1
+
+/*d. Bloquear al vendedor con código 4 para que no pueda registrar ventas en el sistema.*/
+
+create trigger dis_inhabilitar_vendedor
+on
+facturas
+instead of insert
+as
+if (select inserted.cod_vendedor from inserted) = 4
+begin
+raiserror ('No autorizado', 10,1)
+rollback transaction
+end
 
 
 -- Tablas Temporales
@@ -644,5 +718,14 @@ observaciones varchar(125))
 
 --1. Crear un procedimiento almacenado que devuelva la primera y la última venta en una sola tabla.
 
+create procedure sp_primerayultima_venta
+as
+begin
+create table #PyU_Venta
+(id int,
+Nro_Factura int,
+max(fecha), 'Ultima')
 
+select nro_factura, max(fecha),
+from facturas 
 
